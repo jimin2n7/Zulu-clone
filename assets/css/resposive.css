@@ -1,0 +1,67 @@
+
+/* Tablet & mobile */
+@media screen and (max-width: 1023px) {
+    .header__logo{
+        margin-right: 0;
+    }
+    .header__menu{
+        display: none;
+    }
+
+    .banner__links .btn:first-child{
+        margin-right: 10px;
+    }
+    
+    .banner__links-link{
+        padding: 15px;
+    }
+    
+    
+    .banner{
+        
+    }
+    .work{
+        display: none;
+    }
+    .studio{
+        display: none;
+    }
+    .plan{
+        display: none;
+    }
+    .clients{
+        display: none;
+    }
+    .started{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 740px) and (max-width: 1023px){
+    .banner_heading{
+        font-size: 45px;
+    }
+    
+}
+
+/* Mobile */
+
+@media screen and (max-width:739px) {
+    .btn{
+        padding: 15px;
+    }
+
+    .header__logo-img{
+        max-width: 90px;
+    }
+
+    header{
+        padding-top: 20px;
+    }
+}
