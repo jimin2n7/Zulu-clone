@@ -81,6 +81,10 @@ header{
     width: 35%;
 }
 
+.banner__img{
+    width: 100%;
+}
+
 .banner_heading{
     font-size: 55px;
     font-weight: bold;

@@ -18,8 +18,19 @@
     
     
     .banner{
-        
+        flex-direction: column;
     }
+
+    .banner__info{
+        width: 100%;
+    }
+
+    .banner__image{
+        margin-top: 25px;
+        width: 100%;
+        transform:none;
+    }
+
     .work{
         display: none;
     }
@@ -54,6 +65,7 @@
 
 @media screen and (max-width:739px) {
     .btn{
+        text-align: center;
         padding: 15px;
     }
 
@@ -64,4 +76,14 @@
     header{
         padding-top: 20px;
     }
+
+    .banner_heading{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .banner{
+        margin-top: 30px;
+    }
+    
 }
